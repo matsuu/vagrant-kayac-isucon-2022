@@ -6,12 +6,10 @@
 
 ## Requirements
 
-* Ubuntu 20.04 LTSを用意してください。
-* ストレージは8GBでは心もとないです。16GBあれば問題ないと思います。
+* [Vagrant](https://www.vagrantup.com/)実行環境
 
 ## Usage
 
-* [Vagrant](https://www.vagrantup.com/)実行環境を用意します
 * このリポジトリ内の `Vagrantfile` を手元に用意します
   ```sh
   git clone --depth 1 1https://github.com/matsuu/vagrant-kayac-isucon-2022.git
@@ -19,7 +17,7 @@
   ```
 * Vagrantfileがあるディレクトリで`vagrant up`を実行します
   * サーバが1台起動
-* プロビジョニングが完了したら`vagrant ssh`を実行する
+* プロビジョニングが完了したら`vagrant ssh`を実行します
   ```sh
    vagrant ssh
   ```
